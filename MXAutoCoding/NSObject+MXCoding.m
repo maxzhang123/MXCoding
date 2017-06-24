@@ -28,6 +28,8 @@ static NSString *imageType   = @"UIImage"; // UIImage 类型
 //归档
 - (void)encodeWithCoder:(NSCoder *)aCoder
 {
+    
+    
     unsigned int count; // 属性个数
     Ivar *varArray = class_copyIvarList([self class], &count);
     
